@@ -3,8 +3,8 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import * as THREE from 'three'
-import { latLngToVector3 } from '@/lib/latLngToVector3'
-import { REGIONS, type Region } from '@/lib/regions'
+import { latLngToVector3 } from '../lib/latLngToVector3'
+import { REGIONS, type Region } from '../lib/regions'
 
 type HoverState = { region: Region; screen: { x: number; y: number } } | null
 

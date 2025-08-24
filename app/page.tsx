@@ -1,6 +1,6 @@
 'use client'
 
-import Globe from '@/components/Globe'
+import Globe from '../components/Globe'
 
 export default function Page() {
   return (
